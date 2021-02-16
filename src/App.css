@@ -7,6 +7,9 @@
   margin: auto;
   margin-top: 50px;
   border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .name {
@@ -16,6 +19,19 @@
   margin-left: 20px;
   top: 10px;
   font-size: 20px;
+}
+
+.navigation {
+  position: relative;
+  font-family: 'Cabin', sans-serif;
+  color: #F0F0F0;
+  margin-right: 20px;
+  top: 10px;
+  font-size: 20px;
+}
+
+.nav-link {
+  padding-right: 30px;
 }
 
 .underline {
