@@ -1,9 +1,10 @@
 import React from "react";
+import Name from "./Name";
 
 const Container = () => {
   return (
     <div className = "container">
-      Hi
+      <Name />
     </div>
   )
 }
