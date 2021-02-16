@@ -3,7 +3,10 @@ import Container from "./Components/Container";
 
 function App() {
   return (
-    <Container />
+    <div className = "container">
+      <Container />
+
+    </div>
   );
 }
 

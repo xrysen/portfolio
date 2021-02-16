@@ -4,7 +4,7 @@ import Navigation from "./Navigation";
 
 const Container = () => {
   return (
-    <div className = "container">
+    <div className="navbar">
       <Name />
       <Navigation />
     </div>
