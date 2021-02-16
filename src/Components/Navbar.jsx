@@ -2,7 +2,7 @@ import React from "react";
 import Name from "./Name";
 import Navigation from "./Navigation";
 
-const Container = () => {
+const Navbar = () => {
   return (
     <div className="navbar">
       <Name />
@@ -11,4 +11,4 @@ const Container = () => {
   )
 }
 
-export default Container;
+export default Navbar;
