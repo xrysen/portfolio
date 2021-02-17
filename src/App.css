@@ -111,3 +111,10 @@
 li {
   display: inline;
 }
+
+.projects-container {
+  margin: 0 auto;
+  width: 1150px;
+  text-align: center;
+  color: white;
+}
