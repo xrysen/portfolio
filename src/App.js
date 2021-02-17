@@ -10,10 +10,10 @@ const INTRO = "INTRO";
 const PROJECTS = "Projects";
 
 function App() {
-  const [mode, setMode] = useState(PROJECTS);
+  const [mode, setMode] = useState(INTRO);
   return (
     <div className="container">
-      <Navbar onClick={() => setMode(PROJECTS)} />
+      <Navbar onClick={() => setMode(PROJECTS)} about = {() => setMode(INTRO)}/>
       <AnimateOnChange animationIn="fadeIn" animationOut="fadeOut" durationOut={200}>
         {mode === INTRO && (
           <div className="intro-container">

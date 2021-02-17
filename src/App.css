@@ -140,3 +140,8 @@ li {
 .project-image:hover {
   cursor: pointer;
 }
+
+.project-name:hover {
+  color: #8C8C8D;
+  cursor: pointer;
+}

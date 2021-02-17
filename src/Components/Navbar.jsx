@@ -6,7 +6,7 @@ const Navbar = (props) => {
   return (
     <div className="navbar">
       <Name />
-      <Navigation onClick = {props.onClick}/>
+      <Navigation onClick = {props.onClick} about = {props.about}/>
     </div>
   )
 }
