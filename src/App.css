@@ -45,3 +45,29 @@
   border-top: 4px solid #240090;
   margin-left: 20px;
 }
+
+
+.intro {
+  font-family: 'Cabin', sans-serif;
+  width: 350px;
+  color: white;
+  margin-left: 110px;
+  margin-top: 200px;
+}
+
+.intro-text {
+  color: #8C8C8D;
+  line-height: 130%;
+  font-size: 20px;
+}
+
+.intro-button {
+  width: 80px;
+  background-color: #3500D3;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
