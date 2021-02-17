@@ -13,16 +13,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-a {
-  color: #949495;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #949495;
-}
-
-a:hover {
-  color: #CECACA;
-}
