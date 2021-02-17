@@ -118,3 +118,25 @@ li {
   text-align: center;
   color: white;
 }
+
+.project-image {
+  float: left;
+  width: 480px;
+  height: 270px;
+  object-fit: cover;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.projects-preview {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-image:hover {
+  cursor: pointer;
+}
