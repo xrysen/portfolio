@@ -4,27 +4,26 @@ import Navbar from "./Components/Navbar";
 import Intro from "./Components/Intro";
 import IntroPic from "./Components/IntroPic";
 import { AnimateOnChange } from "react-animation";
-import useVisualMode from "./Hooks/useVisualMode";
 
 const INTRO = "INTRO";
 const PORTFOLIO = "PORTFOLIO";
 
 function App() {
-  const { mode, transition, back } = useVisualMode(INTRO);
-
+  const [mode, setMode] = useState(INTRO);
   return (
     <div className="container">
-      <Navbar onClick={() => transition(PORTFOLIO)} />
-      <AnimateOnChange animationIn="fadeInUp" durationOut={800}>
+      <Navbar onClick={() => setMode(PORTFOLIO)} />
+      <AnimateOnChange animationIn="fadeIn" animationOut="fadeOut" durationOut={200}>
         {mode === INTRO && (
           <div className="intro-container">
-            <Intro onClick={() => transition(PORTFOLIO)} />
+            <Intro onClick={() => setMode(PORTFOLIO)} />
             <IntroPic />
           </div>
         )}
         {mode === PORTFOLIO && (
           <div>
             <h1>Portfolio</h1>
+            <button onClick={()=> setMode(INTRO)}>Back</button>
           </div>
         )}
       </AnimateOnChange>
