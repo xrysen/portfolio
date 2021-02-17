@@ -27,7 +27,6 @@
 .navigation {
   position: relative;
   font-family: 'Cabin', sans-serif;
-  color: #949495;
   margin-right: 20px;
   top: 10px;
   font-size: 20px;
@@ -35,6 +34,12 @@
 
 .nav-link {
   padding-right: 30px;
+  color: #949495;
+}
+
+.nav-link:hover {
+  color: white;
+  cursor: pointer;
 }
 
 .underline {
@@ -66,8 +71,18 @@
   background-color: #3500D3;
   border: none;
   color: white;
+  margin-top: 50px;
+  margin-left: 30px;
   padding: 15px 32px;
   border-radius: 30px;
   font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-icons {
+  color: #3500D3;
+  margin-top: 130px;
+  font-size: 50px; 
+  padding-right: 30px;
   cursor: pointer;
 }
