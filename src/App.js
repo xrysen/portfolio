@@ -1,16 +1,32 @@
-import './App.css';
+import "./App.css";
+import { useState } from "react";
 import Navbar from "./Components/Navbar";
-import Intro from "./Components/Intro"
-import { Fade } from "@material-ui/core";
+import Intro from "./Components/Intro";
+import { AnimateOnChange } from "react-animation";
+import useVisualMode from "./Hooks/useVisualMode";
+
+const INTRO = "INTRO";
+const PORTFOLIO = "PORTFOLIO";
 
 function App() {
+  const { mode, transition, back } = useVisualMode(INTRO);
+
   return (
-  <Fade in={true}>
-    <div className = "container">
-      <Navbar />
-      <Intro />
+    <div className="container">
+      <Navbar portfolio={() => transition(PORTFOLIO)} />
+      <AnimateOnChange animationIn="fadeInUp" durationOut={500}>
+      {mode === INTRO && (
+          <div>
+            <Intro onClick={() => transition(PORTFOLIO)} />
+          </div>
+      )}
+      {mode === PORTFOLIO && (
+          <div>
+            <h1>Portfolio</h1>
+          </div>
+      )}
+      </AnimateOnChange>
     </div>
-  </Fade>
   );
 }
 
