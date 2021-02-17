@@ -2,6 +2,7 @@ import "./App.css";
 import { useState } from "react";
 import Navbar from "./Components/Navbar";
 import Intro from "./Components/Intro";
+import IntroPic from "./Components/IntroPic";
 import { AnimateOnChange } from "react-animation";
 import useVisualMode from "./Hooks/useVisualMode";
 
@@ -13,11 +14,12 @@ function App() {
 
   return (
     <div className="container">
-      <Navbar portfolio={() => transition(PORTFOLIO)} />
+      <Navbar portfolio={()=> transition(PORTFOLIO)} />
       <AnimateOnChange animationIn="fadeInUp" durationOut={500}>
       {mode === INTRO && (
-          <div>
+          <div className = "intro-container">
             <Intro onClick={() => transition(PORTFOLIO)} />
+            <IntroPic />
           </div>
       )}
       {mode === PORTFOLIO && (
