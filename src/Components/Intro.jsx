@@ -7,7 +7,7 @@ const Intro = (props) => {
   return (
     <div className = "intro">
       <h1>Hi, I'm Sean.</h1>
-      <p className="intro-text">I'm a Full Stack Developer from Vancouver Island, Canada. I love solving problems through code, making games and composing music.</p>
+      <p className="intro-text">I'm a Full Stack Developer living on Vancouver Island, Canada, with my beautiful Fiancee. I love solving problems through code, making games and composing music.</p>
       <p className="intro-button" onClick={props.web}>My Web Projects</p>
       <p className="intro-button" onClick={props.games}>My Game Projects</p>
 
