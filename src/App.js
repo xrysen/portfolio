@@ -5,11 +5,13 @@ import Intro from "./Components/Intro";
 import IntroPic from "./Components/IntroPic";
 import Projects from "./Components/Projects";
 import Games from "./Components/Games";
+import Contact from "./Components/Contact";
 import { AnimateOnChange } from "react-animation";
 
 const INTRO = "INTRO";
 const PROJECTS = "PROJECTS";
 const GAMES = "GAMES";
+const CONTACT = "CONTACT";
 
 function App() {
   const [mode, setMode] = useState(INTRO);
@@ -20,6 +22,7 @@ function App() {
         about={() => setMode(INTRO)}
         intro={() => setMode(INTRO)}
         games={() => setMode(GAMES)}
+        contact={()=> setMode(CONTACT)}
       />
       <AnimateOnChange
         animationIn="fadeIn"
@@ -28,7 +31,7 @@ function App() {
       >
         {mode === INTRO && (
           <div className="intro-container">
-            <Intro onClick={() => setMode(PROJECTS)} />
+            <Intro web={() => setMode(PROJECTS)} games={()=> setMode(GAMES)} />
             <IntroPic />
           </div>
         )}
@@ -40,6 +43,11 @@ function App() {
         {mode === GAMES && (
           <div className="projects-container">
             <Games />
+          </div>
+        )}
+        {mode === CONTACT && (
+          <div className = "projects-container">
+            <Contact />
           </div>
         )}
       </AnimateOnChange>
