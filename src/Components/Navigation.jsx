@@ -3,6 +3,7 @@ import React from "react";
 const Navigation = (props) => {
   return (
     <div className = "navigation">
+      <span className="nav-link" onClick={props.intro}>Intro</span>
       <span className="nav-link" onClick={props.onClick}>Projects</span>
       <span className='nav-link' onClick={props.about}>About</span>
       <span className='nav-link' onClick={props.onClick}>Contact</span>

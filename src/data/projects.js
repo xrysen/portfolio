@@ -1,5 +1,6 @@
 import acEditor from "../assets/ac-pixel.png";
 import matchr from "../assets/matchr.png";
+import matchrMobile from "../assets/matchrMobile.png";
 
 const projects = [
   {
@@ -24,7 +25,7 @@ const projects = [
     id: 3,
     name: "Matchr Mobile",
     description: "",
-    pic: "https://github.com/xrysen/matchr-mobile/raw/master/docs/ss6.png?raw=true",
+    pic: matchrMobile,
     github: "https://github.com/xrysen/matchr-mobile"
   },
   {

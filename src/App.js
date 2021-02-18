@@ -13,8 +13,16 @@ function App() {
   const [mode, setMode] = useState(INTRO);
   return (
     <div className="container">
-      <Navbar onClick={() => setMode(PROJECTS)} about = {() => setMode(INTRO)}/>
-      <AnimateOnChange animationIn="fadeIn" animationOut="fadeOut" durationOut={200}>
+      <Navbar
+        onClick={() => setMode(PROJECTS)}
+        about={() => setMode(INTRO)}
+        intro={() => setMode(INTRO)}
+      />
+      <AnimateOnChange
+        animationIn="fadeIn"
+        animationOut="fadeOut"
+        durationOut={200}
+      >
         {mode === INTRO && (
           <div className="intro-container">
             <Intro onClick={() => setMode(PROJECTS)} />
@@ -22,9 +30,9 @@ function App() {
           </div>
         )}
         {mode === PROJECTS && (
-        <div className="projects-container">
-          <Projects />
-        </div>
+          <div className="projects-container">
+            <Projects />
+          </div>
         )}
       </AnimateOnChange>
     </div>
