@@ -129,6 +129,16 @@ li {
   padding-left: 30px;
 }
 
+.game-image {
+  float: left;
+  width: 320px;
+  height: 240px;
+  object-fit: cover;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
 .projects-preview {
   display: flex;
   flex-direction: row;
@@ -138,6 +148,10 @@ li {
 }
 
 .project-image:hover {
+  cursor: pointer;
+}
+
+.game-image:hover {
   cursor: pointer;
 }
 

@@ -1,6 +1,11 @@
 import acEditor from "../assets/ac-pixel.png";
 import matchr from "../assets/matchr.png";
 import matchrMobile from "../assets/matchrMobile.png";
+import amethyst from "../assets/amethyst.png";
+import rysenRanch from "../assets/rysenRanch.png";
+import phoenix from "../assets/phoenix.png";
+import cadence from "../assets/cadence.png";
+import montey from "../assets/montey.png";
 
 const projects = [
   {
@@ -36,4 +41,32 @@ const projects = [
   }
 ];
 
-export { projects };
+const games = [
+  {
+    id: 1,
+    name: "Cadence",
+    pic: cadence
+  },
+  {
+    id: 2,
+    name: "Amethyst",
+    pic: amethyst
+  },
+  {
+    id: 3,
+    name: "Rysen Ranch",
+    pic: rysenRanch
+  },
+  {
+    id: 4,
+    name: "Phoenix Flame",
+    pic: phoenix
+  },
+  {
+    id: 5,
+    name: "Montey-The-Anything-But-Friendly-Shark",
+    pic: montey
+  }
+]
+
+export { projects, games };
