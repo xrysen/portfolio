@@ -1,12 +1,16 @@
 import acEditor from "../assets/ac-pixel.png";
 import matchr from "../assets/matchr.png";
 import matchrMobile from "../assets/matchrMobile.png";
-import amethyst from "../assets/amethyst.png";
-import rysenRanch from "../assets/rysenRanch.png";
-import phoenix from "../assets/phoenix.png";
+import amethyst from "../assets/amethystStatic.png";
+import amethystAni from "../assets/amethystAni.gif";
+import rysenRanch from "../assets/ranchAni.gif";
+import ranchStatic from "../assets/ranchStatic.png";
+import phoenix from "../assets/flameStatic.png";
+import flameAni from "../assets/flameAni.gif";
 import cadence from "../assets/cadenceAni.gif";
 import cadenceStatic from "../assets/cadenceStatic.png";
-import montey from "../assets/montey.png";
+import montey from "../assets/monteyStatic.png";
+import monteyAni from "../assets/monteyAni.gif";
 
 const projects = [
   {
@@ -46,32 +50,37 @@ const games = [
   {
     id: 1,
     name: "Cadence",
+    status: "(In Development)",
     pic: cadence,
     static: cadenceStatic
   },
   {
     id: 2,
     name: "Amethyst",
-    pic: amethyst,
-    static: ""
+    status: "(Demo)",
+    pic: amethystAni,
+    static: amethyst
   },
   {
     id: 3,
     name: "Rysen Ranch",
+    status: "(Demo)",
     pic: rysenRanch,
-    static: ""
+    static: ranchStatic
   },
   {
     id: 4,
     name: "Phoenix Flame",
-    pic: phoenix,
-    static: ""
+    status: "(48h Compo Entry)",
+    pic: flameAni,
+    static: phoenix
   },
   {
     id: 5,
     name: "Montey-The-Anything-But-Friendly-Shark",
-    pic: montey,
-    static: ""
+    status: "(48h Compo Entry)",
+    pic: monteyAni,
+    static: montey
   }
 ]
 

@@ -14,6 +14,7 @@ const Game = (props) => {
   return (
     <div className="project-item">
       <h3 className="project-name">{props.name}</h3>
+      <h4 className="project-name">{props.status}</h4>
       <img
         src={pic}
         alt={props.name}
