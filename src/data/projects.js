@@ -4,7 +4,8 @@ import matchrMobile from "../assets/matchrMobile.png";
 import amethyst from "../assets/amethyst.png";
 import rysenRanch from "../assets/rysenRanch.png";
 import phoenix from "../assets/phoenix.png";
-import cadence from "../assets/cadence.png";
+import cadence from "../assets/cadenceAni.gif";
+import cadenceStatic from "../assets/cadenceStatic.png";
 import montey from "../assets/montey.png";
 
 const projects = [
@@ -45,27 +46,32 @@ const games = [
   {
     id: 1,
     name: "Cadence",
-    pic: cadence
+    pic: cadence,
+    static: cadenceStatic
   },
   {
     id: 2,
     name: "Amethyst",
-    pic: amethyst
+    pic: amethyst,
+    static: ""
   },
   {
     id: 3,
     name: "Rysen Ranch",
-    pic: rysenRanch
+    pic: rysenRanch,
+    static: ""
   },
   {
     id: 4,
     name: "Phoenix Flame",
-    pic: phoenix
+    pic: phoenix,
+    static: ""
   },
   {
     id: 5,
     name: "Montey-The-Anything-But-Friendly-Shark",
-    pic: montey
+    pic: montey,
+    static: ""
   }
 ]
 

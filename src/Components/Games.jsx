@@ -4,7 +4,7 @@ import { games } from "../data/projects";
 
 const Games = () => {
   const list = games.map((game) => {
-    return <Game key={game.id} name={game.name} pic={game.pic} />;
+    return <Game key={game.id} name={game.name} pic={game.pic} static = {game.static} />;
   });
 
   return (
