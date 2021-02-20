@@ -1,0 +1,20 @@
+.button {
+  display: inline;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(76, 216, 255, 0.8),
+      rgba(30, 108, 217, 0.8)
+    );
+
+    padding: 12px;
+    height: 15px;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 30px;
+    color: white;
+}
+
+.button:hover {
+  cursor: pointer;
+  border: 1px solid rgba(30, 108, 217, 0.8);
+}

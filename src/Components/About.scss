@@ -2,9 +2,30 @@
   .about {
     margin-top: 50px;
     font-size: 20px;
-    width: 300px;
+    width: 450px;
     margin-right: 10%;
   }
+
+  .intro-icon {
+    padding-right: 60px;
+    font-size: 50px;
+    color: #E8E8E8;
+  }
+
+  .intro-icons {
+    width: 100%;
+    margin-left: 60px;
+  }
+
+  .bottom-nav {
+    display: block;
+    margin-top: 50px;
+  }
+}
+
+.intro-icon:hover {
+  color: rgba(30, 108, 217, 0.8);
+  cursor: pointer;
 }
 
 .name {
