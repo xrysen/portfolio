@@ -1,5 +1,7 @@
-import "./App.css";
+import "./App.scss";
 import React, { useState } from "react";
+import Brand from "./Components/Brand";
+import Navbar from "./Components/Navbar";
 
 const INTRO = "INTRO";
 const PROJECTS = "PROJECTS";
@@ -9,7 +11,10 @@ const CONTACT = "CONTACT";
 function App() {
   const [mode, setMode] = useState(INTRO);
   return (
-    <div></div>
+    <div className = "main-container">
+      <Brand />
+      <Navbar />
+    </div>
   )
 }
 

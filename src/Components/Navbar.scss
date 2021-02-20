@@ -1,0 +1,30 @@
+$mobile-size: 411px;
+$tablet-size: 768px;
+$laptop-size: 1366px;
+$desktop-size: 1920px;
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  color: white;
+}
+
+li:hover {
+  color: #8C8C8D;
+  cursor: pointer;
+}
+
+@media screen and (max-width: $mobile-size) {
+  ul {
+    margin-left: 30px;
+  }
+
+  li {
+    padding-right: 10px;
+  }
+}

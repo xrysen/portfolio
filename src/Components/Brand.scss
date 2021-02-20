@@ -1,0 +1,15 @@
+$mobile-size: 411px;
+$tablet-size: 768px;
+$laptop-size: 1366px;
+$desktop-size: 1920px; 
+
+.brand {
+  color: white;
+  font-size: 20px;
+}
+
+@media screen and (max-width: $mobile-size) {
+  .brand {
+    text-align: center;
+  }
+}
