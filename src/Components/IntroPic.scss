@@ -1,0 +1,15 @@
+$mobile-size: 411px;
+$tablet-size: 768px;
+$laptop-size: 1366px;
+$desktop-size: 1920px; 
+
+@media screen and(max-width: $mobile-size) {
+  .intro-pic-container {
+    margin-left: 25px;
+    border-radius: 10px;
+  }
+
+  img {
+    border-radius: 10px;
+  }
+}

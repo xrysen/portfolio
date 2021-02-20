@@ -1,0 +1,28 @@
+$mobile-size: 411px;
+$tablet-size: 768px;
+$laptop-size: 1366px;
+$desktop-size: 1920px; 
+
+.contact-icons {
+  color: #3500D3;
+  font-size: 50px;  
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: $mobile-size) {
+    h3 {
+      color: #F0F0F0;
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      color: #8C8C8D;
+    }
+
+    .contact-icons {
+      margin-top: 20px;
+      margin-left: 40px;
+    }
+}
