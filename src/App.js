@@ -1,6 +1,7 @@
 import "./App.css";
 import React from "react";
 import me from "./assets/me.jpg";
+import About from "./Components/About";
 
 function App() {
   return (
@@ -8,7 +9,10 @@ function App() {
     <div className = "top-background">
     </div>
     <div className = "bottom-background"></div>
-    <div className = "content-container"></div>
+    <div className = "content-container">
+      <img src = {me} alt = "profile" className = "profile-pic" />
+      <About />
+    </div>
     </>
   );
 }
