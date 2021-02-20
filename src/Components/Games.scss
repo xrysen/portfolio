@@ -1,0 +1,27 @@
+$mobile-size: 411px;
+$tablet-size: 768px;
+$laptop-size: 1366px;
+$desktop-size: 1920px;
+
+.game-container {
+  color: white;
+  width: 100%;
+}
+
+.game-image:hover {
+  cursor: pointer;
+}
+
+.game-image {
+  border-radius: 5px;
+}
+
+@media screen and (max-width: $mobile-size) {
+    .game-container {
+      text-align: center;
+    }
+
+    .game-image {
+      width: 350px;
+    }
+}

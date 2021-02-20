@@ -5,7 +5,9 @@ import Navbar from "./Components/Navbar";
 import IntroPic from "./Components/IntroPic";
 import IntroText from "./Components/IntroText";
 import WebProjects from "./Components/WebProjects";
+import Games from "./Components/Games";
 import { AnimateOnChange } from "react-animation";
+import { propTypes } from "react-bootstrap/esm/Image";
 
 const INTRO = "INTRO";
 const WEB = "WEB";
@@ -17,7 +19,7 @@ function App() {
   return (
     <div className="main-container">
       <Brand click = {()=> setMode(INTRO)} />
-      <Navbar web = {()=> setMode(WEB)} />
+      <Navbar web = {()=> setMode(WEB)} games={()=> setMode(GAMES)} />
       <AnimateOnChange animation="fade" duration="1000">
         {mode === INTRO && (
           <>
@@ -27,6 +29,9 @@ function App() {
         )}
         {mode === WEB && (
           <WebProjects />
+        )}
+        {mode === GAMES && (
+          <Games />
         )}
       </AnimateOnChange>
     </div>
