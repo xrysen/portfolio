@@ -6,8 +6,8 @@ const Games = () => {
     return (
       <div key={i}>
         <h4 className = "game-title" onClick={()=> window.open(games.pic)}>{games.name}</h4>
-        <img src = {games.static} alt={games.name} className="game-image" />
         <p>{games.status}</p>
+        <img onClick = {()=> window.open(games.pic)} src = {games.static} alt={games.name} className="game-image" />
       </div>
     )
   })

@@ -16,7 +16,7 @@ $desktop-size: 1920px;
   border-radius: 5px;
 }
 
-@media screen and (max-width: $mobile-size) {
+@media screen and (max-width: $tablet-size) {
     .game-container {
       text-align: center;
     }

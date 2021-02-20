@@ -13,7 +13,7 @@ $desktop-size: 1920px;
   color: #8C8C8D;
 }
 
-@media screen and (max-width: $mobile-size) {
+@media screen and (max-width: $tablet-size) {
   .brand {
     text-align: center;
   }

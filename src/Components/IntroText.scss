@@ -10,7 +10,7 @@ $desktop-size: 1920px;
   cursor: pointer;
 }
 
-@media screen and (max-width: $mobile-size) {
+@media screen and (max-width: $tablet-size) {
     h3 {
       color: #F0F0F0;
       text-align: center;

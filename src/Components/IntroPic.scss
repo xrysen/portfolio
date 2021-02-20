@@ -3,7 +3,7 @@ $tablet-size: 768px;
 $laptop-size: 1366px;
 $desktop-size: 1920px; 
 
-@media screen and(max-width: $mobile-size) {
+@media screen and(max-width: $tablet-size) {
   .intro-pic-container {
     width: 100%;
     border-radius: 10px;
