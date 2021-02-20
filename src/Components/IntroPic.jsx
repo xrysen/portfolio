@@ -4,7 +4,7 @@ import "./IntroPic.scss";
 const IntroPic = () => {
   return (
     <div className="intro-pic-container">
-      <img src={introPic} width="300" alt="Profile" />
+      <img src={introPic} className="intro-pic" alt="Profile" />
     </div>
   )
 }
