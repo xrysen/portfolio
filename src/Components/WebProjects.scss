@@ -1,0 +1,28 @@
+$mobile-size: 411px;
+$tablet-size: 768px;
+$laptop-size: 1366px;
+$desktop-size: 1920px;
+
+.web-projects-container {
+  color: white;
+  width: 100%;
+}
+
+.web-image:hover {
+  cursor: pointer;
+}
+
+.projects-title:hover {
+  cursor: pointer;
+  color: #8C8C8D;
+}
+
+@media screen and (max-width: $mobile-size) {
+  .web-projects-container {
+    text-align: center;
+  }
+
+  .web-image {
+    width: 350px;
+  }
+}

@@ -12,7 +12,7 @@ import cadenceStatic from "../assets/cadenceStatic.png";
 import montey from "../assets/monteyStatic.png";
 import monteyAni from "../assets/monteyAni.gif";
 
-const projects = [
+const webProjects = [
   {
     id: 1,
     name: "AC Pixel Editor",
@@ -26,23 +26,27 @@ const projects = [
   {
     id: 2,
     name: "Matchr",
-    description: "",
+    description: "Matchr uses a clean, simple, familiar interface that lets both you and your partner swipe or click your way through highly rated restaurants in your local area, until you’ve both swiped YES on the same delightful establishment!",
     pic: matchr,
-    github: "https://github.com/xrysen/matcher"
+    github: "https://github.com/xrysen/matcher",
+    techStack: "React, TypeScript, Express, postgreSQL, Yelp Fusion API"
 
   },
   {
     id: 3,
     name: "Matchr Mobile",
-    description: "",
+    description: "The mobile app for Matchr",
     pic: matchrMobile,
-    github: "https://github.com/xrysen/matchr-mobile"
+    github: "https://github.com/xrysen/matchr-mobile",
+    techStack: "React-native, Express, postgreSQL, Yelp Fusion API"
   },
   {
     id: 4,
     name: "Tadoo",
+    description: "A smart To-do list that takes a user entry and uses an algorithm to catogorizes it under one of four lists",
     pic: "https://github.com/xrysen/smart-to-do-list/raw/master/docs/active.png?raw=true",
-    github: "https://github.com/xrysen/smart-to-do-list"
+    github: "https://github.com/xrysen/smart-to-do-list",
+    techStack: "HTML, CSS, Javascript, jQuery, Express, postgreSQL, Open Database API, Google Books API, Yelp Fusion API"
   }
 ];
 
@@ -84,4 +88,4 @@ const games = [
   }
 ]
 
-export { projects, games };
+export { webProjects, games };
