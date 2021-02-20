@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
-
 .top-background {
   display: flex;
   flex-direction: column;
@@ -27,6 +25,29 @@
   background-color: white;
 }
 
+@media screen and (max-width: 700px) {
+  .content-container {
+    position: fixed;
+    top: 150px;
+    left: 30px;
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 10px 8px #888888;
+    z-index: 1;
+  }
+
+  .profile-pic {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto
+  }
+}
+
 @media screen and (min-width: 992px) {
   .content-container {
     display: flex;
@@ -43,13 +64,4 @@
     z-index: 1;
   }
 
-  .profile-pic {
-    font-family: "Cabin", sans-serif;
-    margin-left: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-radius: 10px;
-    width: 40%;
-    height: auto;
-  }
 }
