@@ -8,6 +8,11 @@ $desktop-size: 1920px;
   font-size: 20px;
 }
 
+.brand:hover {
+  cursor: pointer;
+  color: #8C8C8D;
+}
+
 @media screen and (max-width: $mobile-size) {
   .brand {
     text-align: center;

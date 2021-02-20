@@ -1,8 +1,8 @@
 import "./Brand.scss";
 
-const Brand = () => {
+const Brand = (props) => {
   return (
-    <div className="brand">SEAN OYLER</div>
+    <div onClick = {props.click} className="brand">SEAN OYLER</div>
   )
 }
 

@@ -17,6 +17,15 @@ $desktop-size: 1920px;
   color: #8C8C8D;
 }
 
+.web-image {
+  border-radius: 5px;
+}
+
+p {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
 @media screen and (max-width: $mobile-size) {
   .web-projects-container {
     text-align: center;

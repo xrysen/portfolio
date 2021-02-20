@@ -16,13 +16,13 @@ function App() {
   const [mode, setMode] = useState(INTRO);
   return (
     <div className="main-container">
-      <Brand />
+      <Brand click = {()=> setMode(INTRO)} />
       <Navbar web = {()=> setMode(WEB)} />
-      <AnimateOnChange animation="fade">
+      <AnimateOnChange animation="fade" duration="1000">
         {mode === INTRO && (
           <>
             <IntroPic />
-            <IntroText />
+            <IntroText web = {()=> setMode(WEB)}/>
           </>
         )}
         {mode === WEB && (

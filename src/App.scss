@@ -13,7 +13,10 @@ $desktop-size: 1920px;
     margin: 0 auto;
     margin-top: 50px;
     width: 95%;
-    height: 95%;
+    height: 840px;
+    padding-bottom: 30px;
     border-radius: 10px;
+    overflow-y: auto;
+    scrollbar-width: 0;
   }
 }

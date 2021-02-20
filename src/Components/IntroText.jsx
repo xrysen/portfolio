@@ -4,7 +4,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const IntroText = () => {
+const IntroText = (props) => {
   return (
     <>
       <h3>Hi, I'm Sean</h3>
@@ -15,7 +15,7 @@ const IntroText = () => {
       </p>
 
       <div className="intro-buttons">
-        <Button text="Web Projects" />
+        <Button onClick={props.web} text="Web Projects" />
         <Button text="Game Projects" />
       </div>
       <div className = "icons">
