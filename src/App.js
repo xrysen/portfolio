@@ -2,6 +2,7 @@ import "./App.scss";
 import React from "react";
 import me from "./assets/me.jpg";
 import About from "./Components/About";
+import Nav from "./Components/Nav";
 import {AppBar, Toolbar, Button, Typography } from "@material-ui/core";
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
         <Typography variant="h6">
           Sean Oyler
         </Typography>
-        <Typography color="inherit">Home Web Games About Resume Blog</Typography>
+        <Typography color="inherit">
+          <Nav />
+        </Typography>
       </Toolbar>
     </AppBar>
     <div className = "top-background">
