@@ -1,6 +1,4 @@
 import acEditor from "../assets/ac-pixel.png";
-import matchr from "../assets/matchr.png";
-import matchrMobile from "../assets/matchrMobile.png";
 import amethyst from "../assets/amethystStatic.png";
 import amethystAni from "../assets/amethystAni.gif";
 import rysenRanch from "../assets/ranchAni.gif";
@@ -26,7 +24,6 @@ const projects = [
   {
     id: 2,
     name: "Matchr",
-    description: "",
     pic: "https://github.com/xrysen/matcher/raw/master/client/public/matchr%20screenshots/match.png?raw=true",
     github: "https://github.com/xrysen/matcher",
     techStack: "React, React-Native, Typescript, SCSS, postgreSQL, Yelp Fusion API",

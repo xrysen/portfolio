@@ -4,13 +4,11 @@ import me from "./assets/me.jpg";
 import About from "./Components/About";
 import Nav from "./Components/Nav";
 import { AnimateOnChange } from "react-animation";
-import { AppBar, Toolbar, Button, Typography } from "@material-ui/core";
+import { AppBar, Toolbar, Typography } from "@material-ui/core";
 import WebProjects from "./Components/WebProjects";
 
 const HOME = "HOME";
 const WEB = "WEB";
-const GAMES = "GAMES";
-const ABOUT = "ABOUT";
 
 function App() {
   const [view, setView] = useState(HOME);
