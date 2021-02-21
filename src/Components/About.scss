@@ -2,6 +2,41 @@
   font-family: 'Rubik', sans-serif;
 }
 
+.about-two {
+  color: #706f6f;
+}
+
+.intro-icon {
+  color: #bbbbbb;
+}
+
+@media screen and (max-width: 700px) {
+  .about {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .intro-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .intro-icon {
+    font-size: 50px;
+  }
+
+  .bottom-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .about {
     margin-top: 50px;
