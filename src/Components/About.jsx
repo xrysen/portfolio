@@ -25,9 +25,9 @@ const About = () => {
         <FontAwesomeIcon icon = {faLinkedin} className = "intro-icon" />
       </div>
       <div className = "bottom-nav">
-        <Button variant="contained" color="primary" size="small">Web Projects</Button>
+        <Button variant="contained" style={{backgroundColor: "rgba(30, 108, 217, 0.8)", color: "white"}} size="small">Web Projects</Button>
         <br />
-        <Button variant="contained" color="primary" size="small">Game Projects</Button>
+        <Button variant="contained" style={{backgroundColor: "rgba(30, 108, 217, 0.8)", color: "white"}} size="small">Game Projects</Button>
       </div>
     </article>
   );
