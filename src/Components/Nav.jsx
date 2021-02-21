@@ -6,8 +6,8 @@ const Nav = (props) => {
       <li>Web</li>
       <li>Games</li>
       <li>About</li>
-      <li>Resume</li>
-      <li>Blog</li>
+      <li onClick={()=> window.open("https://xrysen.github.io/resume/")}>Resume</li>
+      <li onClick={()=> window.open("https://verge-rpg.com/topic/33/rysen-s-devlog")}>Blog</li>
     </ul>
   )
 }
