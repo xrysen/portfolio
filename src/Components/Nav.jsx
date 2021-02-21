@@ -3,7 +3,7 @@ import "./Nav.scss";
 const Nav = (props) => {
   return (
     <ul>
-      <li>Web</li>
+      <li onClick={props.web}>Web</li>
       <li>Games</li>
       <li>About</li>
       <li onClick={()=> window.open("https://xrysen.github.io/resume/")}>Resume</li>

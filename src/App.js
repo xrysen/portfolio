@@ -26,9 +26,9 @@ function App() {
             justifyContent: "space-between",
           }}
         >
-          <Typography variant="h6">Sean Oyler</Typography>
+          <Typography variant="h6" onClick={()=> setView(HOME)}>Sean Oyler</Typography>
           <Typography color="inherit">
-            <Nav />
+            <Nav web={()=> setView(WEB)} />
           </Typography>
         </Toolbar>
       </AppBar>

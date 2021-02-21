@@ -12,6 +12,7 @@ const WebProjects = () => {
         pic={project.pic}
         description={project.description}
         techStack={project.techStack}
+        github = {project.github}
       />
     );
   });
