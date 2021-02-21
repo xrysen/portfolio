@@ -4,7 +4,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Button from '@material-ui/core/Button';
 
-const About = () => {
+const About = (props) => {
   return (
     <article className="about">
       Hey there, I'm
@@ -25,7 +25,7 @@ const About = () => {
         <FontAwesomeIcon icon = {faLinkedin} className = "intro-icon" />
       </div>
       <div className = "bottom-nav">
-        <Button variant="contained" style={{backgroundColor: "rgba(30, 108, 217, 0.8)", color: "white", display: "inline"}} size="large">Web Projects</Button>
+        <Button onClick={props.web} variant="contained" style={{backgroundColor: "rgba(30, 108, 217, 0.8)", color: "white", display: "inline"}} size="large">Web Projects</Button>
         <br />
         <Button className = "bottom-button" variant="contained" style={{backgroundColor: "rgba(30, 108, 217, 0.8)", color: "white", display: "inline"}} size="large">Game Projects</Button>
       </div>

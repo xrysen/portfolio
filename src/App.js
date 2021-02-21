@@ -5,6 +5,7 @@ import About from "./Components/About";
 import Nav from "./Components/Nav";
 import { AnimateOnChange } from "react-animation";
 import { AppBar, Toolbar, Button, Typography } from "@material-ui/core";
+import WebProjects from "./Components/WebProjects";
 
 const HOME = "HOME";
 const WEB = "WEB";
@@ -36,14 +37,18 @@ function App() {
       <div className="top-background"></div>
       <div className="bottom-background"></div>
       <AnimateOnChange animation="fade">
-        <div className="content-container">
           {view === HOME && (
-            <>
+        <>
+        <div className="content-container">
+            
               <img src={me} alt="profile" className="profile-pic" />
-              <About />
-            </>
+              <About web={()=> setView(WEB)}/>
+          </div>
+          </>
           )}
-        </div>
+          {view === WEB && (
+            <WebProjects />
+          )}
       </AnimateOnChange>
     </>
   );

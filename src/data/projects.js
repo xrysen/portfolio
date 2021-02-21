@@ -27,22 +27,19 @@ const projects = [
     id: 2,
     name: "Matchr",
     description: "",
-    pic: matchr,
-    github: "https://github.com/xrysen/matcher"
+    pic: "https://github.com/xrysen/matcher/raw/master/client/public/matchr%20screenshots/match.png?raw=true",
+    github: "https://github.com/xrysen/matcher",
+    techStack: "React, React-Native, Typescript, SCSS, postgreSQL, Yelp Fusion API",
+    description: "Matchr uses a clean, simple, familiar interface that lets both you and your partner swipe or click your way through highly rated restaurants in your local area, until you’ve both swiped YES on the same delightful establishment!"
 
   },
   {
     id: 3,
-    name: "Matchr Mobile",
-    description: "",
-    pic: matchrMobile,
-    github: "https://github.com/xrysen/matchr-mobile"
-  },
-  {
-    id: 4,
     name: "Tadoo",
     pic: "https://github.com/xrysen/smart-to-do-list/raw/master/docs/active.png?raw=true",
-    github: "https://github.com/xrysen/smart-to-do-list"
+    github: "https://github.com/xrysen/smart-to-do-list",
+    techStack: "HTML, SCSS, Javascript, jQuery, postgreSQL, Yelp Fusion API, Open Movie Database API, Google Books API",
+    description: "Tadoo is a single page application that will take whatever task you enter and uses an algorithm based on API calls to sort it into one of four categories."
   }
 ];
 
