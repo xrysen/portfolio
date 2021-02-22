@@ -8,6 +8,10 @@
 
   border-radius: 10px;
   box-shadow: 5px 10px 8px #888888;
+
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .profile-image {
@@ -16,11 +20,24 @@
   border-radius: 10px;
 }
 
-@media screen and (min-width: 605px) {
+.description {
+  color:#888888;
+}
+
+@media screen and (min-width: 948px) {
   .intro-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
+  }
+
+  .profile-image {
+   
+  }
+
+  .intro-p {
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
