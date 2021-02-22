@@ -32,12 +32,30 @@
     align-items: center;
   }
 
-  .profile-image {
-   
-  }
-
   .intro-p {
     margin-left: 5%;
     margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 948px) {
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .profile-image {
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  .intro-p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    line-height: 20px;
   }
 }

@@ -1,5 +1,4 @@
 import "./Intro.scss";
-import { Container, Grid } from "@material-ui/core";
 import profilePic from "../assets/me.jpg";
 
 const Intro = () => {
@@ -11,8 +10,8 @@ const Intro = () => {
         <strong>Sean Oyler</strong>
         <br />
         <span className="description">
-          A Full Stack Web and Indie Game Developer living on Vancouver Island
-          with my beautiful Fiancee. I love solving problems through code,
+          A Full Stack and Indie Game Developer living on Vancouver Island,
+          with my beautiful Fiancée. I love solving problems through code,
           making games and composing music.
         </span>
       </p>
