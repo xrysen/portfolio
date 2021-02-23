@@ -13,7 +13,7 @@ const WEB = "WEB";
 const ABOUT = "ABOUT";
 
 function App() {
-  const [mode, setMode] = useState(ABOUT);
+  const [mode, setMode] = useState(INTRO);
   return (
     <>
       <AppBar
@@ -34,7 +34,7 @@ function App() {
         </Toolbar>
       </AppBar>
       <AnimateOnChange>
-        {mode === INTRO && <Intro />}
+        {mode === INTRO && <Intro click = {()=> setMode(ABOUT)} />}
         {mode === WEB && <WebProjects /> }
         {mode === ABOUT && <About /> }
       </AnimateOnChange>

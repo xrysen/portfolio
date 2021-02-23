@@ -28,3 +28,10 @@ body {
 .brand:hover {
   cursor: pointer;
 }
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

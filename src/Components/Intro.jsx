@@ -1,7 +1,8 @@
 import "./Intro.scss";
 import profilePic from "../assets/me.jpg";
+import Button from "react-bootstrap/Button";
 
-const Intro = () => {
+const Intro = (props) => {
   return (
     <div className="intro-container">
       <img className="profile-image" src={profilePic} alt="Profile" />
@@ -10,12 +11,11 @@ const Intro = () => {
         <strong>Sean Oyler</strong>
         <br />
         <span className="description">
-          A Full Stack and Indie Game Developer living on Vancouver Island,
-          with my beautiful Fiancée. I love solving problems through code,
+          A Full Stack and Indie Game Developer living on Vancouver Island. I love solving problems through code,
           making games and composing music.
         </span>
-        <br />
-        <button>Learn More</button>
+        <br /><br />
+        <Button onClick={props.click}>Learn More</Button>
       </p>
     </div>
   );
