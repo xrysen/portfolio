@@ -34,7 +34,7 @@ function App() {
         </Toolbar>
       </AppBar>
       <AnimateOnChange>
-        {mode === INTRO && <Intro click = {()=> setMode(ABOUT)} />}
+        {mode === INTRO && <Intro click = {()=> setMode(ABOUT)} web = {()=> setMode(WEB) }/>}
         {mode === WEB && <WebProjects /> }
         {mode === ABOUT && <About /> }
       </AnimateOnChange>

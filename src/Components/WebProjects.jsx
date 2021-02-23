@@ -1,7 +1,6 @@
 import WebProject from "./WebProject";
 import { projects } from "../data/projects";
 import "./WebProjects.scss";
-import CardGroup from "react-bootstrap/CardGroup";
 
 const WebProjects = () => {
   const proj = projects.map((project) => {

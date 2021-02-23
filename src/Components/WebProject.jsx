@@ -1,5 +1,3 @@
-import Card from "react-bootstrap/Card";
-
 const WebProject = (props) => {
   return (
     <div className="project-container">
