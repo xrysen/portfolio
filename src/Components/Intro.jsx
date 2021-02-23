@@ -14,6 +14,8 @@ const Intro = () => {
           with my beautiful Fiancée. I love solving problems through code,
           making games and composing music.
         </span>
+        <br />
+        <button>Learn More</button>
       </p>
     </div>
   );
