@@ -2,9 +2,8 @@
   display: flex;
   flex-direction: row;
   margin-top: 20vh;
-  margin-left: 20vw;
-  margin-right: auto;
-  width: 60vw;
+  margin-left: 15vw;
+  width: 70vw;
   height: auto;
   background-color: white;
 
@@ -16,10 +15,43 @@
   line-height: 30px;
 }
 
-.web-image {
-  width: 200px;
+.web-pic {
+  width: 100%;
 }
 
-.web-image:hover {
+.web-pic:hover {
   cursor: pointer;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.description {
+  color:#888888;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1080px) {
+  .web-container {
+    flex-direction: column;
+  }
+
+  p {
+    width: 80%;
+  }
+
+  .web-pic {
+    width: 80%;
+  }
+
+  .project-container {
+    margin-left: 1px;
+  }
 }

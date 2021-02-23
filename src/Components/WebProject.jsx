@@ -2,16 +2,17 @@ import Card from "react-bootstrap/Card";
 
 const WebProject = (props) => {
   return (
-    <Card style={{marginTop: "10px", marginBottom: "10px", marginLeft: "30px", marginRight: "30px" }}>
-      <Card.Img variant="top" src={props.pic} onClick={()=> window.open(props.pic)} />
-      <Card.Body>
-        <Card.Title>{props.name}</Card.Title>
-        <Card.Text>{props.description}</Card.Text>
-      </Card.Body>
-      <Card.Footer>
-        {props.techStack}
-      </Card.Footer>
-    </Card>
+    <div className="project-container">
+      <h4>{props.name}</h4>
+      <img
+        src={props.pic}
+        className="web-pic"
+        alt={props.name}
+        onClick={() => window.open(props.pic)}
+      />
+      <p className="description">{props.description}</p>
+      <p>Tech Stack: {props.techStack}</p>
+    </div>
   );
 };
 

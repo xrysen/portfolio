@@ -15,7 +15,8 @@ const Intro = (props) => {
           making games and composing music.
         </span>
         <br /><br />
-        <Button onClick={props.click}>Learn More</Button>
+        <Button onClick={props.click} style={{marginRight: "10px"}}>Learn More</Button>
+        <Button onClick={props.web}>Web</Button>
       </p>
     </div>
   );

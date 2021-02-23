@@ -1,7 +1,7 @@
 import WebProject from "./WebProject";
 import { projects } from "../data/projects";
 import "./WebProjects.scss";
-import CardDeck from "react-bootstrap/CardDeck";
+import CardGroup from "react-bootstrap/CardGroup";
 
 const WebProjects = () => {
   const proj = projects.map((project) => {
@@ -17,7 +17,7 @@ const WebProjects = () => {
 
   return (
     <div className="web-container">
-      <CardDeck>{proj}</CardDeck>
+      {proj}
     </div>
   );
 };
