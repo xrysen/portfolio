@@ -58,3 +58,12 @@
     margin-left: 1px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .web-container {
+    width: 100%;
+    margin: 0;
+    margin-top: 35%;
+    margin-bottom: 10%;
+  }
+}
