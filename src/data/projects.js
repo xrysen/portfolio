@@ -7,7 +7,7 @@ import phoenix from "../assets/flameStatic.png";
 import flameAni from "../assets/flameAni.gif";
 import cadence from "../assets/cadenceAni.gif";
 import cadenceStatic from "../assets/cadenceStatic.png";
-import montey from "../assets/monteyStatic.png";
+import montey from "../assets/montey.png";
 import monteyAni from "../assets/monteyAni.gif";
 
 const projects = [
@@ -46,35 +46,40 @@ const games = [
     name: "Cadence",
     status: "(In Development)",
     pic: cadence,
-    static: cadenceStatic
+    static: cadenceStatic,
+    description: "Cadence is an in development 16-bit jRPG with a musical theme"
   },
   {
     id: 2,
     name: "Amethyst",
     status: "(Demo)",
     pic: amethystAni,
-    static: amethyst
+    static: amethyst,
+    description: "A short jRPG inspired by early SNES RPG's"
   },
   {
     id: 3,
     name: "Rysen Ranch",
     status: "(Demo)",
     pic: rysenRanch,
-    static: ranchStatic
+    static: ranchStatic,
+    description: "A farming simulator where you grow crops, raise livestock with an interactive town full of characters"
   },
   {
     id: 4,
     name: "Phoenix Flame",
     status: "(48h Compo Entry)",
     pic: flameAni,
-    static: phoenix
+    static: phoenix,
+    description: "The winner of a 48 hour game competition where the theme was 'The Colour Red'"
   },
   {
     id: 5,
     name: "Montey-The-Anything-But-Friendly-Shark",
     status: "(48h Compo Entry)",
     pic: monteyAni,
-    static: montey
+    static: montey,
+    description: "A top-down, and side-view (depending on the level) 48 hour competition entry where the theme was the main player had to be a bad guy."
   }
 ]
 

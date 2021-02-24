@@ -25,5 +25,18 @@
 }
 
 .project-container {
-  width: 30%;
+  width: 35%;
+  margin-left: 10%;
+}
+
+@media screen and (max-width: 1200px) {
+  .game-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .game-pic {
+    width: 160%;
+  }
+
 }
