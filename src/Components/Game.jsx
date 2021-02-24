@@ -1,7 +1,7 @@
 const Game = (props) => {
   return (
     <div className="game-project-container">
-      <h6>{props.name}</h6>
+      <h5>{props.name}</h5>
       <img
         src={props.pic}
         className="game-pic"

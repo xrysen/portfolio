@@ -5,6 +5,8 @@ import WebProjects from "./Components/WebProjects";
 import About from "./Components/About";
 import Games from "./Components/Games";
 import Nav from "./Components/Nav";
+import Footer from "./Components/Footer";
+import Icons from "./Components/Icons";
 import { AnimateOnChange } from "react-animation";
 
 import { AppBar, Toolbar, Typography } from "@material-ui/core";
@@ -29,18 +31,38 @@ function App() {
             justifyContent: "space-between",
           }}
         >
-          <Typography variant="h6" onClick={()=> setMode(INTRO)} className="brand">Sean Oyler</Typography>
+          <Typography
+            variant="h6"
+            onClick={() => setMode(INTRO)}
+            className="brand"
+          >
+            Sean Oyler
+          </Typography>
           <Typography color="inherit">
-            <Nav web = {()=> setMode(WEB)} about = {()=> setMode(ABOUT)} games = {()=> setMode(GAMES)} />
+            <Nav
+              web={() => setMode(WEB)}
+              about={() => setMode(ABOUT)}
+              games={() => setMode(GAMES)}
+            />
+          </Typography>
+          <Typography variant="h4" color="inherit">
+            <Icons />
           </Typography>
         </Toolbar>
       </AppBar>
       <AnimateOnChange>
-        {mode === INTRO && <Intro click = {()=> setMode(ABOUT)} web = {()=> setMode(WEB) } games = {()=> setMode(GAMES)} />}
-        {mode === WEB && <WebProjects /> }
-        {mode === ABOUT && <About /> }
-        {mode === GAMES && <Games /> }
+        {mode === INTRO && (
+          <Intro
+            click={() => setMode(ABOUT)}
+            web={() => setMode(WEB)}
+            games={() => setMode(GAMES)}
+          />
+        )}
+        {mode === WEB && <WebProjects />}
+        {mode === ABOUT && <About />}
+        {mode === GAMES && <Games />}
       </AnimateOnChange>
+      <Footer />
     </>
   );
 }
