@@ -17,7 +17,7 @@ const Intro = (props) => {
         <br />
         <Button onClick={props.click} style={{marginRight: "10px", marginTop: "10px"}}>Learn More</Button>
         <Button onClick={props.web} style={{marginRight: "10px", marginTop: "10px"}}>Web Projects</Button>
-        <Button onClick={props.game} style={{marginRight: "10px", marginTop: "10px"}}>Game Projects</Button>
+        <Button onClick={props.games} style={{marginRight: "10px", marginTop: "10px"}}>Game Projects</Button>
         <Button onClick={()=> window.open("https://xrysen.github.io/resume/")} style={{marginRight: "10px", marginTop: "10px"}}>Resume</Button>
         <Button onClick={()=> window.open("https://verge-rpg.com/topic/33/rysen-s-devlog")} style={{marginRight: "10px", marginTop: "10px"}}>Blog</Button>
       </p>

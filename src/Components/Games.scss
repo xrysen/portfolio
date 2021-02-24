@@ -1,0 +1,29 @@
+.game-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20vh;
+  margin-left: 15vw;
+  width: 70vw;
+  height: auto;
+  background-color: white;
+
+  border-radius: 10px;
+  box-shadow: 5px 10px 8px #888888;
+
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.game-pic {
+  width: 100%;
+}
+
+.game-pic:hover {
+  cursor: pointer;
+}
+
+.project-container {
+  width: 30%;
+}
