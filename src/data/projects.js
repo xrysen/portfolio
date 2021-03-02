@@ -23,6 +23,14 @@ const projects = [
   },
   {
     id: 2,
+    name: "Tetris",
+    pic: "https://github.com/xrysen/tetris.js/raw/main/docs/ss1.png?raw=true",
+    github: "https://github.com/xrysen/tetris.js",
+    techStack: "HTML, CSS, Javascript",
+    description: "A simple browser version of the classic game Tetris."
+  },
+  {
+    id: 3,
     name: "Matchr",
     pic: "https://github.com/xrysen/matcher/raw/master/client/public/matchr%20screenshots/match.png?raw=true",
     github: "https://github.com/xrysen/matcher",
@@ -31,7 +39,7 @@ const projects = [
 
   },
   {
-    id: 3,
+    id: 4,
     name: "Tadoo",
     pic: "https://github.com/xrysen/smart-to-do-list/raw/master/docs/active.png?raw=true",
     github: "https://github.com/xrysen/smart-to-do-list",
