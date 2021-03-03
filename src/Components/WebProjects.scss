@@ -40,6 +40,13 @@
   margin-top: 10px;
 }
 
+@media screen and (max-width: 1274px) {
+  .web-container {
+    font-size: 16px;
+    line-height: normal;
+  }
+}
+
 @media screen and (max-width: 1080px) {
   .web-container {
     flex-direction: column;
