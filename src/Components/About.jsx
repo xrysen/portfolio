@@ -116,7 +116,7 @@ const About = () => {
             <Card.Body>
               <a href="mailto:sean.oyler@gmail.com" className="icon-link"><FontAwesomeIcon className = "icon" icon={faEnvelopeSquare} /></a>
               <FontAwesomeIcon className = "icon" icon={faGithub} onClick={()=> window.open("https://github.com/xrysen")} />
-              <FontAwesomeIcon className = "icon" icon={faLinkedin} onClick={()=> window.open("https://www.linkedin.com/in/sean-oyler-20337370/")} />
+              <FontAwesomeIcon className = "icon" icon={faLinkedin} onClick={()=> window.open("www.linkedin.com/in/sean-oyler")} />
             </Card.Body>
           </Accordion.Collapse>
         </Card>

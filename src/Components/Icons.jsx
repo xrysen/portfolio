@@ -7,7 +7,7 @@ const Icons = () => {
     <ul>
       <li><a style = {{color: "white"}} href = "mailto:sean.oyler@gmail.com"><FontAwesomeIcon icon={faEnvelopeSquare} /></a></li>
       <li onClick={()=> window.open("https://github.com/xrysen")}><FontAwesomeIcon icon={faGithub} /></li>
-      <li onClick={()=> window.open("https://www.linkedin.com/in/sean-oyler-20337370/")}><FontAwesomeIcon icon={faLinkedin} /></li>
+      <li onClick={()=> window.open("www.linkedin.com/in/sean-oyler")}><FontAwesomeIcon icon={faLinkedin} /></li>
     </ul>
   )
 }
