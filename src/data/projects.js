@@ -27,7 +27,8 @@ const projects = [
     pic: "https://github.com/xrysen/tetris.js/raw/main/docs/ss1.png?raw=true",
     github: "https://github.com/xrysen/tetris.js",
     techStack: "HTML, CSS, Javascript",
-    description: "A simple browser version of the classic game Tetris."
+    description: "A simple browser version of the classic game Tetris.",
+    demo: "https://xrysen.github.io/tetris.js/"
   },
   {
     id: 3,

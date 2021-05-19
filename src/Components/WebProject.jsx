@@ -1,3 +1,5 @@
+import Link from "@material-ui/core/Link"
+
 const WebProject = (props) => {
   return (
     <div className="project-container">
@@ -10,6 +12,8 @@ const WebProject = (props) => {
       />
       <p className="description">{props.description}</p>
       <p>Tech Stack: {props.techStack}</p>
+      <Link onClick = {()=> window.open(props.demo)} className = "link">Demo: {props.demo}</Link>
+      <Link onClick = {()=> window.open(props.github)} className = "link">Github: {props.github}</Link>
     </div>
   );
 };

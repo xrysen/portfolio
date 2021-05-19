@@ -19,7 +19,7 @@ const GAMES = "GAMES";
 function App() {
   const [mode, setMode] = useState(INTRO);
   return (
-    <>
+    <div className = "main-container">
       <AppBar
         position="fixed"
         style={{ backgroundColor: "rgba(30, 108, 217, 0.8)" }}
@@ -63,7 +63,7 @@ function App() {
         {mode === GAMES && <Games />}
       </AnimateOnChange>
       <Footer />
-    </>
+    </div>
   );
 }
 
