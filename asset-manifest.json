@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a1c46b51.chunk.css",
-    "main.js": "/portfolio/static/js/main.b1d41994.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b1d41994.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.75e8aa69.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.75e8aa69.js.map",
-    "static/js/2.a9e41208.chunk.js": "/portfolio/static/js/2.a9e41208.chunk.js",
-    "static/js/2.a9e41208.chunk.js.map": "/portfolio/static/js/2.a9e41208.chunk.js.map",
-    "static/js/3.2ddd4428.chunk.js": "/portfolio/static/js/3.2ddd4428.chunk.js",
-    "static/js/3.2ddd4428.chunk.js.map": "/portfolio/static/js/3.2ddd4428.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.a0944a09.chunk.css",
+    "main.js": "/portfolio/static/js/main.5d24d046.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5d24d046.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.b6ef906b.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.b6ef906b.js.map",
+    "static/js/2.86dd7743.chunk.js": "/portfolio/static/js/2.86dd7743.chunk.js",
+    "static/js/2.86dd7743.chunk.js.map": "/portfolio/static/js/2.86dd7743.chunk.js.map",
+    "static/js/3.330efb5f.chunk.js": "/portfolio/static/js/3.330efb5f.chunk.js",
+    "static/js/3.330efb5f.chunk.js.map": "/portfolio/static/js/3.330efb5f.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.a1c46b51.chunk.css.map": "/portfolio/static/css/main.a1c46b51.chunk.css.map",
-    "static/js/2.a9e41208.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a9e41208.chunk.js.LICENSE.txt",
+    "static/css/main.a0944a09.chunk.css.map": "/portfolio/static/css/main.a0944a09.chunk.css.map",
+    "static/js/2.86dd7743.chunk.js.LICENSE.txt": "/portfolio/static/js/2.86dd7743.chunk.js.LICENSE.txt",
     "static/media/ac-pixel.f47d5628.png": "/portfolio/static/media/ac-pixel.f47d5628.png",
     "static/media/amethystAni.719bb181.gif": "/portfolio/static/media/amethystAni.719bb181.gif",
     "static/media/amethystStatic.8fe7b77d.png": "/portfolio/static/media/amethystStatic.8fe7b77d.png",
@@ -26,9 +26,9 @@
     "static/media/ranchStatic.d7f48422.png": "/portfolio/static/media/ranchStatic.d7f48422.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.75e8aa69.js",
-    "static/js/2.a9e41208.chunk.js",
-    "static/css/main.a1c46b51.chunk.css",
-    "static/js/main.b1d41994.chunk.js"
+    "static/js/runtime-main.b6ef906b.js",
+    "static/js/2.86dd7743.chunk.js",
+    "static/css/main.a0944a09.chunk.css",
+    "static/js/main.5d24d046.chunk.js"
   ]
 }
