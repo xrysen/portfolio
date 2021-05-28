@@ -23,12 +23,12 @@ const projects = [
   },
   {
     id: 2,
-    name: "Tetris",
-    pic: "https://github.com/xrysen/tetris.js/raw/main/docs/ss1.png?raw=true",
-    github: "https://github.com/xrysen/tetris.js",
-    techStack: "HTML, CSS, Javascript",
-    description: "A simple browser version of the classic game Tetris.",
-    demo: "https://xrysen.github.io/tetris.js/"
+    name: "The Best Product Ever",
+    pic: "https://github.com/xrysen/bestProductEver/raw/main/docs/ss1.png?raw=true",
+    github: "https://github.com/xrysen/bestProductEver",
+    techStack: "React, React Bootstrap, Auth0, Stripe",
+    description: "A simple one product Ecom site that utilizes Auth0 for login and Stripe for payment processing",
+    demo: "https://xrysen.github.io/bestProductEver"
   },
   {
     id: 3,
@@ -37,10 +37,19 @@ const projects = [
     github: "https://github.com/xrysen/matcher",
     techStack: "React, React-Native, Typescript, SCSS, postgreSQL, Yelp Fusion API",
     description: "Matchr uses a clean, simple, familiar interface that lets both you and your partner swipe or click your way through highly rated restaurants in your local area, until you’ve both swiped YES on the same delightful establishment!"
-
+    
   },
   {
     id: 4,
+    name: "Tetris",
+    pic: "https://github.com/xrysen/tetris.js/raw/main/docs/ss1.png?raw=true",
+    github: "https://github.com/xrysen/tetris.js",
+    techStack: "HTML, CSS, Javascript",
+    description: "A simple browser version of the classic game Tetris.",
+    demo: "https://xrysen.github.io/tetris.js/"
+  },
+  {
+    id: 5,
     name: "Tadoo",
     pic: "https://github.com/xrysen/smart-to-do-list/raw/master/docs/active.png?raw=true",
     github: "https://github.com/xrysen/smart-to-do-list",
